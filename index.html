@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="id=edge">
+   <title>Ratan Villas</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family+Bhai|Bree+seriif&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <nav id="navbar">
+      <div id="logo">
+         <img src="img/logo.jpg" alt="">
+      </div>
+      <ul>
+         <li class="item"><a href="#home">HOME</a></li>
+         <li class="item"><a href="#ABOUT">ABOUT</a></li>
+         <li class="item"><a href="#GALLERY" >GALLERY</a></li>
+         <li class="item"><a href="CONTACT US">CONTACT US</a></li>
+         <li class="item"><a href="SERVICES">SERVICES</a></li>
+   </ul>
+
+   </nav>
+   <!-- Home Section -->
+   <section id="home">
+      <h1 class="h-primary">Ratan Villas</h1>
+      <p>Our most lavishly decorated suites are the three Heritage Suites, located in the original 18th-century Rajput residence. Whilst preserving the old-world charm of the m suites are equipped with all modern amenities to create a luxurious blend of historic and contemporary. They each feature an ample bedroom and spacious bathroom with a separate shower and a cast iron bathtub. Staying in the Heritage Suite you will also enjoy your own terrace and private courtyard. The other two suites have their own balconies, that are connected. One of the major appeals of this suite is the breath-taking views it offers: the elevated platform in the front presents a stunning panorama of Mehrangarh Fort, while the back of the suite faces the splendidly landscaped hotel gardens.</p>
+     
+      
+   </section>
+   <!-- Gallery Section -->
+   <section class="services-container">
+      <h1 class="h-primary center">GALLERY</h1>
+      <div id="gallery">
+         <div class="slideshow">
+               <div class="slide">
+               <img src="/img/view.jpg" alt="swimming">
+               </div>
+               <div class="slide">
+               <img src="/img/d.jpg" alt="dinnerarea">
+               </div>
+               <div class="slide">
+               <img src="/img/w.jpg" alt="outerview">
+               </div>
+               <div class="slide">
+               <img src="/img/s.jpg" alt="view">
+               </div>
+              </div>
+            <h2 class="h-secondary center">Overview</h2>
+            <p class="center">OUR VISION IS OF A WORLD WHERE PEOPLE AND PLACE LIVE IN HARMONY. OUR PURPOSE IS ONE OF RESTORING PEACE OF MIND AND SERENITY OF SOUL.</p>
+         </div>
+
+      </div>
+
+      <script>
+         var slideIndex = 0;
+         showSlides();
+         
+         function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("slide");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 3000); // Change image every 3 seconds
+         }
+         </script>
+         
+                <table border="0" width="100%" bgcolor= "white" align="center" cellpadding="10" cellspacing="10">
+                    <h1>Room & Suites</h1>
+                    <tr height="180px">
+                    <td width="25%"><img src="/img/d.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/v.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/3.JPG" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/5.JPG" height="180px" width="100%"id="img"</td>
+                    </tr>
+                </table>
+                <table border="0" width="100%" bgcolor= "white" align="center" cellpadding="10" cellspacing="10">
+    
+                    <tr height="180px">
+                    <td width="25%"><img src="/img/w.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/9.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/7.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/6.jpg" height="180px" width="100%"id="img"</td>
+                    </tr>
+                </table>
+                <table border="0" width="100%" bgcolor= "white" align="center" cellpadding="10" cellspacing="10">
+    
+                    <tr height="180px">
+                    <td width="25%"><img src="/img/1.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/2.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/10.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/s.jpg" height="180px" width="100%"id="img"</td>
+                    </tr>
+                </table>
+                <table border="0" width="100%" bgcolor= "white" align="center" cellpadding="10" cellspacing="10">
+    
+                    <tr height="180px">
+                    <td width="25%"><img src="/img/play.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/swim.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/10.jpg" height="180px" width="100%"id="img"</td>
+                    <td width="25%"><img src="/img/kids.jpg" height="180px" width="100%"id="img"</td>
+                    </tr>
+                </table>
+                <section id="client-section">
+                  <h1 class="h-primary center">Our Clients</h1>
+                  <div id="clients">
+                     <div class="client-item">
+                        <img src="/img/aero.png" alt="">
+                     </div>
+                     <div class="client-item">
+                        <img src="/img/para.png" alt="">
+                     </div>
+                     <div class="client-item">
+                        <img src="/img/delta.png" alt="">
+                     </div>
+                     <div class="client-item">
+                        <img src="/img/trav.png" alt="">
+                     </div>
+                     <div class="client-item">
+                        <img src="/img/rusc.png" alt="">
+                     </div>
+                  </div>
+         
+                </section>
+                <section id="contact">
+                  <h1 class="h-primary center">Contact Us</h1>
+                  <div id="contact-box">
+                     <div style="text-align:center">
+                     <form action="">
+                        <div class="form-group">
+                           <label for="name">Name:</label>
+                           <input type="text" name="name" placeholder="Enter your name">
+                        </div><br>
+                        <div class="form-group">
+                           <label for="name">Email:</label>
+                           <input type="text" name="name" placeholder="Enter your email">
+                        </div><br>
+                        <div class="form-group">
+                           <label for="name">phone:</label>
+                           <input type="text" name="name" placeholder="Enter your phone">
+                        </div><br>
+
+                     </form>
+                  </div>
+                </section>
+                <footer>
+                  <div class="center">
+                     copyright &copy; www.Ratanvillas.com. All right reserved
+                  </div>
+                </footer>
+  
+</body>
+</html>
+
